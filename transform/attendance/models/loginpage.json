@@ -4,30 +4,38 @@
   "properties": {
     "username": {
       "type": "string",
-      "label": "username"
+      "label": "username",
+      "control": "text",
+      "selector": "input[id='userid']"
     },
     "password": {
       "type": "string",
-      "label": "password"
+      "label": "password",
+      "control": "text",
+      "selector": "input[id='pwd']"
     },
     "submit": {
       "type": "action",
-      "parameters": {
-        "username": {
-          "type": "string"
-        },
-        "password": {
-          "type": "string"
-        }
-      }
+      "control": "action.click",
+      "selector": "input[id='btnsubmit']"
     },
     "errorMessage": {
       "type": "string",
       "update": {
         "type": "none"
       }
+    },
+    "islogin": {
+      "type": "identifier",
+      "control": "exists",
+      "selector": "input[id='btnsubmit']"
     }
   },
   "id": "loginpage",
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "event": "loginpage"
+    }
+  ]
 }
