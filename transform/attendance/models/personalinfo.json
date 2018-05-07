@@ -3,7 +3,7 @@
   "properties": {
     "personalinfo": {
       "type": "action",
-      "control": "property.innerText",
+      "control": "action",
       "selector": "span[class='c']",
       "selectContains": "Personal Information"
     },
