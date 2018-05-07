@@ -4,6 +4,14 @@
   "defaultLayout": "PhonePortrait",
   "previewToken": "6a036bc0",
   "clientVersion": "6.0.22",
-  "theme": "Anchor",
-  "creatorId": "gssmages"
+  "theme": "flexattendance",
+  "creatorId": "gssmages",
+  "id": "attendance",
+  "isBuiltInTemplate": false,
+  "screensCount": 1,
+  "isVersioned": true,
+  "pathToRepo": "c:\\ProgramData\\SmartUX Studio\\users\\gssmages\\attendance",
+  "githubRepo": "https://github.com/gssmages/attendance",
+  "creatorName": "Magesh S",
+  "explorations": []
 }
