@@ -16,7 +16,7 @@
   "connect": [
     {
       "match": [
-        "ispersonal"
+        "ispersonalinfo"
       ],
       "event": "personalinfo"
     }
