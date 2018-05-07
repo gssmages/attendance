@@ -1,5 +1,13 @@
 {
   "id": "__BASE__",
   "name": "attendance",
-  "screens": []
+  "screens": [
+    {
+      "id": "loginpage",
+      "name": "loginpage",
+      "sourceScreenId": "Login_LoginDarkBlue",
+      "sourceAppId": "StrawberryTemplates"
+    }
+  ],
+  "startScreen": "loginpage"
 }
