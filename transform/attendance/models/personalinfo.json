@@ -4,7 +4,7 @@
     "personalinfo": {
       "type": "action",
       "control": "property.innerText",
-      "selector": "span[class='c']",
+      "selector": "#nodetab53_2201",
       "selectContains": "Personal Information",
       "selectHidden": true
     },
