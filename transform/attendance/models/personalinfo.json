@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "ispersonal": {
+      "type": "identifier",
+      "control": "property.innerText",
+      "selector": "span[class='c']"
+    },
+    "personalinfo": {
+      "type": "action",
+      "control": "property.innerText",
+      "selector": "span[class='c']",
+      "selectContains": "Personal Information"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "ispersonal"
+      ],
+      "event": "personalinfo"
+    }
+  ]
+}
