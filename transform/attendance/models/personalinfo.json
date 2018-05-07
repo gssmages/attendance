@@ -1,16 +1,16 @@
 {
   "type": "object",
   "properties": {
-    "ispersonal": {
-      "type": "identifier",
-      "control": "property.innerText",
-      "selector": "span[class='c']"
-    },
     "personalinfo": {
       "type": "action",
       "control": "property.innerText",
       "selector": "span[class='c']",
       "selectContains": "Personal Information"
+    },
+    "ispersonalinfo": {
+      "type": "identifier",
+      "control": "exists",
+      "selector": "span[id='homePathLink']"
     }
   },
   "connect": [
