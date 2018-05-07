@@ -5,8 +5,7 @@
       "type": "action",
       "control": "property.innerText",
       "selector": "#nodetab53_2201",
-      "selectContains": "Personal Information",
-      "selectHidden": true
+      "selectContains": "Personal Information"
     },
     "ispersonalinfo": {
       "type": "identifier",
