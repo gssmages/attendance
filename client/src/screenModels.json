@@ -37,5 +37,11 @@
     },
     "id": "loginpage",
     "sourcePath": "loginpage"
+  },
+  "myhomepage": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {},
+    "id": "myhomepage"
   }
 }

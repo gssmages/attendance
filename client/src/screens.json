@@ -7,6 +7,12 @@
       "name": "loginpage",
       "sourceScreenId": "Login_LoginDarkBlue",
       "sourceAppId": "StrawberryTemplates"
+    },
+    {
+      "id": "myhomepage",
+      "name": "myhomepage",
+      "sourceScreenId": "blank",
+      "sourceAppId": "default"
     }
   ],
   "startScreen": "loginpage"
