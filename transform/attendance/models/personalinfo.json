@@ -3,9 +3,10 @@
   "properties": {
     "personalinfo": {
       "type": "action",
-      "control": "action",
+      "control": "property.innerText",
       "selector": "span[class='c']",
-      "selectContains": "Personal Information"
+      "selectContains": "Personal Information",
+      "selectHidden": true
     },
     "ispersonalinfo": {
       "type": "identifier",
