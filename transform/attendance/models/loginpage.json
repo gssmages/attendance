@@ -34,7 +34,9 @@
   "id": "loginpage",
   "connect": [
     {
-      "match": [],
+      "match": [
+        "islogin"
+      ],
       "event": "loginpage"
     }
   ]
