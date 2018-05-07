@@ -4,7 +4,7 @@
     "personalinfo": {
       "type": "action",
       "control": "property.innerText",
-      "selector": "span[id='LEAAPPLYREG']",
+      "selector": "span[class='uline']",
       "selectContains": "New Request"
     },
     "ispersonalinfo": {
