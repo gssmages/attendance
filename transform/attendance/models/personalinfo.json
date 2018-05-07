@@ -3,8 +3,6 @@
   "properties": {
     "personalinfo": {
       "type": "action",
-      "control": "property.innerText",
-      "selector": "span[class='uline']",
       "selectContains": "New Request"
     },
     "ispersonalinfo": {
