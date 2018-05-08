@@ -3,7 +3,9 @@
   "properties": {
     "personalinfo": {
       "type": "action",
-      "selectContains": "New Request"
+      "selectContains": "Personal Information",
+      "control": "property.innerHTML",
+      "selector": "div.node.nodeon"
     },
     "ispersonalinfo": {
       "type": "identifier",
