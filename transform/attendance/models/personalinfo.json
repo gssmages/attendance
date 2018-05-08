@@ -10,7 +10,8 @@
     "ispersonalinfo": {
       "type": "identifier",
       "control": "exists",
-      "selector": "span[id='homePathLink']"
+      "selector": ".nodeon",
+      "selectContains": "Application"
     }
   },
   "connect": [
