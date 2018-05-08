@@ -5,7 +5,7 @@
       "type": "action",
       "selectContains": "Personal Information",
       "control": "property.innerHTML",
-      "selector": "div.node.nodeon"
+      "selector": "#nodetab57_2201.nodeon"
     },
     "ispersonalinfo": {
       "type": "identifier",
