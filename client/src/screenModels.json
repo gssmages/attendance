@@ -41,7 +41,11 @@
   "myhomepage": {
     "type": "object",
     "comment": "Blank",
-    "properties": {},
+    "properties": {
+      "links": {
+        "type": "string"
+      }
+    },
     "id": "myhomepage"
   }
 }
